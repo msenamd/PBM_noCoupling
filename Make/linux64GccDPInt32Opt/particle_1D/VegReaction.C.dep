@@ -1,0 +1,5 @@
+$(OBJECTS_DIR)/particle_1D/VegReaction.C.dep: \
+particle_1D/VegReaction.C \
+particle_1D/VegReaction.h \
+
+

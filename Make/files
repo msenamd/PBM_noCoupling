@@ -1,0 +1,8 @@
+PBM.C
+particle_1D/calcConvection.C
+particle_1D/particle_1D.C
+particle_1D/VegReaction.C
+particle_1D/TDMA.C
+
+
+EXE = $(FOAM_USER_APPBIN)/PBM

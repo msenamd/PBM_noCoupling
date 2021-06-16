@@ -1,0 +1,13 @@
+$(OBJECTS_DIR)/particle_1D/particle_1D.C.dep: \
+particle_1D/particle_1D.C \
+particle_1D/particle_1D.h \
+particle_1D/VegReaction.h \
+particle_1D/calcConvection.h \
+particle_1D/TDMA.h \
+particle_1D/energy_conservation_explicit.h \
+particle_1D/energy_conservation_reactionstep.h \
+particle_1D/energy_conservation_diffusionstep.h \
+particle_1D/mass_conservation.h \
+particle_1D/particle_surface.h \
+
+

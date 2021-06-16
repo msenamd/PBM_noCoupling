@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/particle_1D/calcConvection.C.dep: \
+particle_1D/calcConvection.C \
+particle_1D/calcConvection.h \
+particle_1D/particle_1D.h \
+particle_1D/VegReaction.h \
+particle_1D/TDMA.h \
+
+

@@ -1,0 +1,5 @@
+$(OBJECTS_DIR)/particle_1D/TDMA.C.dep: \
+particle_1D/TDMA.C \
+particle_1D/TDMA.h \
+
+
