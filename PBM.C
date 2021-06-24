@@ -191,7 +191,7 @@ while ((globalTime < simulationTime) && status)
     x_vs_list   = thisParticle.getXvs();
 
     T_surf = thisParticle.getT().back();
-    T_surf = thisParticle.getT().front();
+    T_core = thisParticle.getT().front();
 
     h_conv = thisParticle.getHconv();
 

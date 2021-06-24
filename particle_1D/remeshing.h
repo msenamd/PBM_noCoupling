@@ -106,7 +106,7 @@ void particle_1D::interpolateOnNewMesh(int nx_new)
 		}
 		if (ii == -1)
 		{
-			cout << "*** Error in interpolation routine ***" << endl;
+			cout << "*** Error in linear interpolation intial estimate ***" << endl;
 			break;
 		}
 	}
@@ -143,7 +143,7 @@ vector<double> particle_1D::solveCostFunction(vector<double> q0, vector<double> 
 	int iter_max = 10;
 	double eps = 1e-6;
 
-	// A dummy empty vector of legth nx_new
+	// A dummy empty vector of size nx_new
 	vector<double> zeroVector;
 	zeroVector.assign(nx_new, 0.0);
 	
@@ -209,8 +209,6 @@ vector<double> particle_1D::solveCostFunction(vector<double> q0, vector<double> 
 
 	double magnitude_res0 = magnitude_res;
 
-	cout << "magnitude_res0 = " << magnitude_res0 << endl; 
-
 	double int_q = 0.0;
 
 	if(magnitude_res0 <= 1e-14)
@@ -220,11 +218,12 @@ vector<double> particle_1D::solveCostFunction(vector<double> q0, vector<double> 
 	}
 	else
 	{
-
 		vector<double> Ad = zeroVector;
 
 		while((iter <= iter_max) && (magnitude_res/magnitude_res0 > pow(eps,2.0)) )
 		{
+			iter++;
+
 			for (int i = 0; i < nx_new; i++)
 			{
 				Ad[i] = (2*W_P)*d[i];
@@ -269,20 +268,11 @@ vector<double> particle_1D::solveCostFunction(vector<double> q0, vector<double> 
         	{
         		d[i] = res[i] + beta*d[i];
         	}
-
-			iter++;
 		}
-
-		std::vector<double> abs_res;
-
-		for (int i = 0; i < nx_new; i++)
-        {
-        		abs_res[i] = abs(res[i]);
-        }
-
-		cout << "iter = " << iter 
-			 << " , max(abs(res)) = " <<  *max_element(abs_res.begin(), abs_res.end()) << endl;
-
+		if (iter >= iter_max)
+		{
+			cout << "*** Error in remeshing cost function ***" << endl;
+		}
 	}
 
 	return q;

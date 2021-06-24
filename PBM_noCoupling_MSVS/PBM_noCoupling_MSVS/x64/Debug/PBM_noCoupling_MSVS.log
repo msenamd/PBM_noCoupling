@@ -241,35 +241,35 @@ F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(205,9): warning C4365: 'argu
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(205,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,50): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,58): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,64): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,70): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,56): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,62): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(255,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(255,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263,48): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263,55): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(232,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(232,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,50): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,58): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,64): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235,70): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(242,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(242,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(251,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(251,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(251,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(256,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(256,56): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(256,62): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(257,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(257,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(265,48): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(265,55): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(272,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(272,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(272,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(284,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(284,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(140,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(147,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(148,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
@@ -401,36 +401,6 @@ F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(430): message : see refere
               _Ty=float,
               _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
           ]
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(37): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(39): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(14): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(45): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(27): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(17): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(283): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(283): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(125): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(89): message : index 'ii' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(73): message : index 'j' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(61): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(297): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(295): message : index '' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(297): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_surface.h(27): warning C4701: potentially uninitialized local variable 'T_new' used
 F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(46): message : index 'i' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56): message : feeds call on this line
@@ -449,33 +419,41 @@ F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(19): message : feeds
 F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(9): message : index 'i' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(184): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(163): message : index '' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(278): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(261): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(252): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(245): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(238): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(231): message : index 'j' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233): message : feeds call on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(228): message : index 'i' range checked by comparison on this line
-F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(287): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(287): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(125): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(89): message : index 'ii' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(73): message : index 'j' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(61): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(284): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(282): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(284): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(265): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(265): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(256): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(256): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(251): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(251): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(242): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(242): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233): message : index 'j' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(235): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(232): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(232): message : feeds call on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): message : index 'iter' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): message : feeds call on this line
@@ -494,6 +472,19 @@ F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(174): message : feeds call o
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(152): message : index 'i' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(301): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(299): message : index '' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(301): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_surface.h(27): warning C4701: potentially uninitialized local variable 'T_new' used
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(39): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(14): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(45): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(184): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(163): message : index '' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): message : feeds call on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(239): message : index 'i' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241): message : feeds call on this line
@@ -518,4 +509,13 @@ F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491): message : feeds call
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(547): message : index 'i' range checked by comparison on this line
 F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(37): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(27): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(17): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): message : feeds call on this line
   PBM_noCoupling_MSVS.vcxproj -> F:\mySolvers\PBM_noCoupling\PBM_noCoupling_MSVS\x64\Debug\PBM_noCoupling_MSVS.exe

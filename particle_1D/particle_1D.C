@@ -447,7 +447,7 @@ void particle_1D::stepForward(const double globalTimeStep,
 			state = false;
 			cout <<"state change to burned" << endl;
 		}
-		if ((eta_c == 0.0) && (delta/delta_i < 0.01))
+		if ((eta_c == 0.0) && (delta/delta_i < 0.02))
 		{
 			state = false;
 			cout <<"state change to burned" << endl;
