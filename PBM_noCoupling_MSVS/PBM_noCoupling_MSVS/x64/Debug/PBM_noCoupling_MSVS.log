@@ -1,0 +1,521 @@
+﻿  particle_1D.C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmemory(141,5): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmemory(151,5): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(214,9): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(230,9): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(247,9): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\atomic(313,9): warning C4365: 'argument': conversion from 'long' to 'unsigned int', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.h(101,20): warning C4820: 'particle_1D': '7' bytes padding added after data member 'particle_1D::state'
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.h(143,16): warning C4820: 'particle_1D': '4' bytes padding added after data member 'particle_1D::nx_old'
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.h(231,1): warning C4626: 'particle_1D': assignment operator was implicitly defined as deleted
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(6,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(8,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(9,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(11,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(12,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(13,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(21,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(22,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(31,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(31,43): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(32,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(32,47): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(41,11): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(41,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(42,11): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(42,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(48,13): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(48,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(49,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(50,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(52,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(52,50): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(53,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(54,41): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56,83): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(57,36): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(57,82): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(58,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(58,89): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(67,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(67,47): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(67,72): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(68,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(68,52): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(73,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(73,45): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(73,72): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(74,41): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(74,52): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(75,41): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(75,52): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(75,60): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(83,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(83,53): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(83,87): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(84,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(84,71): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(84,82): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(6,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(8,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(9,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(10,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(16,7): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(16,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(17,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(18,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(20,17): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(20,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(21,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(22,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(24,10): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(24,31): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(24,77): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(26,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(26,73): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(28,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(28,80): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(31,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(31,83): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(32,59): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(33,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(33,79): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(34,74): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(35,31): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(35,86): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(36,60): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(38,29): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(38,45): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(39,45): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(45,22): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(45,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(46,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(46,49): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(50,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(50,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(10,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(11,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(19,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(29,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(29,43): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30,47): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(39,11): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(39,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40,11): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(52,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(53,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(54,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(55,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(55,36): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(55,61): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(62,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(63,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(64,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(65,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(65,43): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(65,68): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(79,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(79,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(80,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(80,48): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(80,54): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(82,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(82,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(83,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(83,48): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(83,54): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(91,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(92,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(93,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(94,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(94,56): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(95,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(95,62): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(7,82): warning C4100: 'x_O2_g': unreferenced formal parameter
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(11,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(11,39): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(11,96): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12,29): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12,41): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12,98): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(16,74): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(19,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(19,40): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(20,68): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(27,7): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(29,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(29,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(30,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(30,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(32,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(32,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(33,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(33,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(35,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(35,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(35,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(36,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(36,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(15,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(19,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(48,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(49,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(50,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(51,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(53,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(54,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(55,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(56,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(58,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(59,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63,70): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(64,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(64,50): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75,7): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(81,6): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(85,6): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(91,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(91,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(92,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(92,46): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(92,61): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(92,79): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(93,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(93,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(95,10): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(95,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(96,22): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(96,36): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(96,51): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(96,69): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(97,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(97,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(99,11): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(99,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(100,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(100,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(100,53): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(100,71): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(101,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(101,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103,10): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(104,22): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(104,36): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(104,51): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(104,69): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(105,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(105,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(128,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(128,45): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(128,64): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(140,104): warning C4458: declaration of 'nx_old' hides class member
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.h(142,7): message : see declaration of 'particle_1D::nx_old'
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(148,31): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154,36): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(174,5): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(176,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(180,13): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(183,6): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(183,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(183,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(198,16): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(198,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(198,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(202,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(202,46): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(202,52): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(203,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(203,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(205,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(205,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,44): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,50): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,58): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,64): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233,70): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(247,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,19): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,56): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254,62): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(255,34): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(255,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263,48): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263,55): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(270,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(140,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(147,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(148,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(149,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(150,39): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(151,85): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(155,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(155,24): warning C4365: '=': conversion from 'unsigned __int64' to 'int', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(157,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186,57): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186,66): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(207,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(208,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(209,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(216,7): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(216,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(216,31): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(217,7): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(217,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(217,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(225,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(225,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233,37): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233,47): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241,9): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241,38): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(242,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(242,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(242,40): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(242,54): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(320,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(366,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(367,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(368,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(369,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(401,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(402,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(403,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(404,29): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(408,17): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(408,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(409,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(410,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(411,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(414,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(414,22): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(415,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(415,68): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(416,24): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(416,66): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(417,22): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(417,73): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(420,15): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(420,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(421,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(421,65): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(422,23): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(422,74): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(425,18): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(425,26): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(426,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(426,72): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(467,23): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(467,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(467,54): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(467,65): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(468,14): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(468,28): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(468,45): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(474,23): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(474,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(474,54): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(474,65): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(475,14): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(475,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(475,45): warning C4365: 'argument': conversion from 'const int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(489,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(489,21): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(490,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(490,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(490,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(501,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(501,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(501,55): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(501,86): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(502,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(502,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(502,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(503,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(503,25): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(503,33): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(513,12): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(513,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(513,53): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(513,88): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(514,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(514,20): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(514,32): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(515,8): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(515,27): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(515,35): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(546,30): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549,14): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549,28): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549,42): warning C4365: 'argument': conversion from 'int' to 'const unsigned __int64', signed/unsigned mismatch
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(564,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,26): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(44): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(430): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(37): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(40): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(39): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(14): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_reactionstep.h(45): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(27): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(30): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(17): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_diffusionstep.h(20): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(283): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(283): warning C4866: compiler may not enforce left-to-right evaluation order for call to 'C++17 operator'
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(125): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(127): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(89): message : index 'ii' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(103): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(73): message : index 'j' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(75): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(61): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(63): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(297): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(295): message : index '' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(297): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_surface.h(27): warning C4701: potentially uninitialized local variable 'T_new' used
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(46): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(56): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(42): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(39): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(42): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(32): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(29): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(32): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(22): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(19): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\energy_conservation_explicit.h(22): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(19): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(9): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(19): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(9): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\mass_conservation.h(12): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(184): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(186): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(163): message : index '' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(165): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(278): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(280): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(261): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(263): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(252): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(254): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(245): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(249): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(238): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(240): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(231): message : index 'j' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(233): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(228): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(230): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): message : index 'iter' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(226): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(200): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(207): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(198): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(196): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(198): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(176): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(172): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(176): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(174): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(172): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(174): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(152): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\remeshing.h(154): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(239): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(241): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(231): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(233): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(225): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(223): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(225): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(217): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(214): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(217): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(515): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(511): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(515): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(503): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(499): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(503): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(487): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(491): message : feeds call on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(547): message : index 'i' range checked by comparison on this line
+F:\mySolvers\PBM_noCoupling\particle_1D\particle_1D.C(549): message : feeds call on this line
+  PBM_noCoupling_MSVS.vcxproj -> F:\mySolvers\PBM_noCoupling\PBM_noCoupling_MSVS\x64\Debug\PBM_noCoupling_MSVS.exe

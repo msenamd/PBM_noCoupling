@@ -1,3 +1,5 @@
+void particle_1D::updateSurface(double T_g, double G)
+{
 	int iter = 0;
 	int maxIter = 100;
 	double error = 1.0;
@@ -25,6 +27,8 @@
 	Tsurf = T_new;
 	
 	q_surf = eps_surf * G - eps_surf * sigma * pow(Tsurf, 4.0)
-					+ h_conv * (T_g - Tsurf);	
+					+ h_conv * (T_g - Tsurf);		
+}
+
 
 

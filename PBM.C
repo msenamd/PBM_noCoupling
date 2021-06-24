@@ -29,6 +29,7 @@ Description
 	
 \*---------------------------------------------------------------------------*/
 #include <iostream>
+#include <ctime>
 #include "argList.H"
 #include "IOmanip.H"
 
@@ -81,7 +82,7 @@ scalar eps_m  = 0.9;        // Surface emissivity of liquid water [-]
 scalar eps_vs = 0.9;        // Surface emissivity of virgin solid [-]
 scalar eps_c  = 0.9;        // Surface emissivity of solid char [-]
 
-scalar eta_c  = 0.2;        // char yield [-]
+scalar eta_c  = 0.0;        // char yield [-]
 
 //particle initial condition
 scalar FMC    = 0.1;
@@ -104,7 +105,7 @@ bool status = true;
 
 //output files headers
 remove("particleTemporalOut.csv");
-std::string header1 = "time (s), delta (m), mass (kg), vol (m3), Tsurf (k), MLR(kg/m3/s)";
+std::string header1 = "time (s), delta (m), mass (kg), vol (m3), Tsurf (k), Tcore (k), MLR(kg/m3/s)";
 ofstream writeTemporal("particleTemporalOut.csv", ios::app);
 writeTemporal << header1 << endl;
 
@@ -126,7 +127,7 @@ CoordFile = fopen("cellCenter.dat", "w+");
 
 //output fields
 scalar  particleDelta, particleMass, particleVol;
-scalar  T_surf, h_conv;
+scalar  T_surf, T_core, h_conv;
 scalar  volProdRate_tot = 0.0;      // [kg/m3/s]
 scalar  volProdRate_fuel = 0.0;     // [kg/m3/s]
 scalar  volProdRate_H2O = 0.0;      // [kg/m3/s]
@@ -134,6 +135,8 @@ scalar  volHRR = 0.0;               // [J/m3/s]
 
 
 // --------------------------------- run for a certain global time -----------------------------------
+
+std::clock_t c_start = std::clock();
 
 //initialize
 particle_1D thisParticle;
@@ -188,6 +191,8 @@ while ((globalTime < simulationTime) && status)
     x_vs_list   = thisParticle.getXvs();
 
     T_surf = thisParticle.getT().back();
+    T_surf = thisParticle.getT().front();
+
     h_conv = thisParticle.getHconv();
 
     volProdRate_tot     = thisParticle.getMLR();
@@ -196,7 +201,7 @@ while ((globalTime < simulationTime) && status)
     volHRR              = thisParticle.getCharHRR();
 
     writeTemporal << globalTime << "," << particleDelta << "," << particleMass << "," << particleVol 
-    << "," << T_surf << "," << volProdRate_tot << endl;
+    << "," << T_surf << "," << T_core << "," << volProdRate_tot << endl;
 
     writeLine(TempFile, globalTime, thisParticle.getNcells(), T_list);
     writeLine(MoistureFile, globalTime, thisParticle.getNcells(), x_m_list);
@@ -250,6 +255,11 @@ else                // Charring material with no char oxidation
 cout << "Total mass of vapor/volatiles released (theory) = " << Mg_f << endl;
 cout << "Total mass of vapor/volatiles released (simulation) = " << particleMass_i - particleMass << endl;
 
+
+std::clock_t c_end = std::clock();
+
+double time_elapsed_ms = 1000.0 * (c_end-c_start) / CLOCKS_PER_SEC;
+std::cout << "CPU time used: " << time_elapsed_ms << " ms\n";
 
 return 0;
 

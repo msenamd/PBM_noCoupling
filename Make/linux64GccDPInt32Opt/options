@@ -53,4 +53,5 @@
 
 # 8 "<command-line>" 2
 # 1 "Make/options"
+ptFLAGS += -fopenmp
 EXE_INC = -I./particle_1D

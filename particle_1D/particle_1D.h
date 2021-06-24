@@ -57,15 +57,10 @@ public:
 		void stepForward(const double globalTimeStep, const double T_g, const double u_g,
 							const double G , const double x_O2_g, bool active);
 
-		/* Remeshing
-			-Reduce nuber of cells while particle is burning
-			-Maintain uniform grid with spacing close to initial value */
-		void CallRemeshingSteps();
-
 protected:
-    static constexpr double pi = 3.14159265358979323846;
-	static constexpr double sigma = 5.67e-8;     //% Stefan-Boltzmann constant [W/m2/K4]
-	static constexpr double R = 8.3144598;           //Gas constant (J/(mol*K))
+    const double pi = 3.14159265358979323846;
+	const double sigma = 5.67e-8;     //% Stefan-Boltzmann constant [W/m2/K4]
+	const double R = 8.3144598;           //Gas constant (J/(mol*K))
 
 private:
 		
@@ -114,8 +109,8 @@ private:
 		double dx_i;                    	// Initial grid cell size (-)
         double dt;                      	// integration step size (s)
 		double h_conv;                  	// convective heat transfer coefficient (W/m2K)
-		double initVol;                 	// particle initial volume (m3)
-		double finalVol;					// particle final volume (m3)
+		double volume_i;                 	// particle initial volume (m3)
+		double volume;						// particle final volume (m3)
 		double eps_surf;                	// initial particle surface emissivity (-)
 		double q_surf;                  	// Net surface heat flux (W/m2)
 		double kp_surf;                 	// Surface thermal conductivity (W/mK)
@@ -203,6 +198,19 @@ private:
 
 		//adjust the local time-step of particle integration
 		void adjustTimeStep(double globalTimeStep, double x_O2_g);
+
+		//update particle surface temperature
+		void updateSurface(double T_g, double G);
+
+		/* Remeshing
+			-Reduce nuber of cells while particle is burning
+			-Maintain uniform grid with spacing close to initial value */
+		void remeshing();
+		void interpolateOnNewMesh(int nx_new);
+		vector<double> solveCostFunction(vector<double> q0, vector<double> q_old, int nx_new, int nx_old);
+
+		//cap vector to min and max values
+		void checkBounds(vector<double> q);
 
 public:
 		//Access

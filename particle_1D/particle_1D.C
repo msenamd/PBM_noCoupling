@@ -3,6 +3,8 @@
 #include "energy_conservation_reactionstep.h"
 #include "energy_conservation_diffusionstep.h"
 #include "mass_conservation.h"
+#include "remeshing.h"
+#include "particle_surface.h"
 
 particle_1D::particle_1D()
 {
@@ -50,8 +52,8 @@ particle_1D::particle_1D()
 	dx_i 			= 0.0;
 	dt 				= 0.0;
 	h_conv 			= 0.0;
-	initVol 		= 0.0;
-	finalVol 		= 0.0;
+	volume_i 		= 0.0;
+	volume 		= 0.0;
 	eps_surf 		= 0.0;
 	q_surf 			= 0.0;
 	kp_surf 		= 0.0;
@@ -112,31 +114,31 @@ void particle_1D::set
 					std::vector<double> current_x_vs
 )
 {
-    shape = geometry;
+    shape 	= geometry;
     delta_i = radius;
-    lengthCylinder = length;
-    areaRectangle = area;
+    lengthCylinder 	= length;
+    areaRectangle 	= area;
 
-    eta_c = charYield;
+    eta_c 	= charYield;
 
-    rho_m  = moistureDensity;
-    rho_vs = solidDensity;
-    rho_c  = charDensity;
+    rho_m  	= moistureDensity;
+    rho_vs 	= solidDensity;
+    rho_c  	= charDensity;
 
-    c_m  = moistureCapacity;
-    c_vs = solidCapacity;
-    c_c  = charCapacity;
+    c_m  	= moistureCapacity;
+    c_vs 	= solidCapacity;
+    c_c  	= charCapacity;
 
-    k_m  = moistureConductivity;
-    k_vs = solidConductivity;
-    k_c  = charConductivity;
+    k_m  	= moistureConductivity;
+    k_vs 	= solidConductivity;
+    k_c  	= charConductivity;
 
-    e_m  = moistureEmissivity;
-    e_vs = solidEmissivity;
-    e_c  = charEmissivity;
+    e_m  	= moistureEmissivity;
+    e_vs 	= solidEmissivity;
+    e_c  	= charEmissivity;
 
-	nx_i = round(delta_i / (resolution)); 		//spatial resolution ~ 10-microns
-	nx_i = max(nx_i, 5);          			//initial number of cells, keep min of 5 cells
+	nx_i 	= round(delta_i / (resolution)); 	//spatial resolution ~ 10-microns
+	nx_i 	= max(nx_i, 5);          			//initial number of cells, keep min of 5 cells
 
     if(currentTemp.size() == 1)
 	{
@@ -153,32 +155,32 @@ void particle_1D::set
 		nx=currentTemp.size();
 		dx_i = delta_i / nx;
 		dx.assign(nx, dx_i);
-		Temp=currentTemp;
-		x_m=current_x_m;
-		x_vs=current_x_vs;
+		Temp = currentTemp;
+		x_m = current_x_m;
+		x_vs = current_x_vs;
 		x_c.assign(x_m.size(),0.0);
 	
-		for(unsigned int j=0;j<x_m.size();j++)
+		for(unsigned int j=0; j<x_m.size(); j++)
 		{
-			x_c[j]=1.0-x_m[j]-x_vs[j];
+			x_c[j] = 1.0-x_m[j]-x_vs[j];
 		}
 	}
 	
 	//set time step
-	dt=min(tauChemical()*0.1,tauDiff(Temp,x_m,x_vs,dx_i));
+	dt = min(tauChemical()*0.1,tauDiff(Temp,x_m,x_vs,dx_i));
 	
 	Tsurf = Temp.front();
 	Tcore = Temp.back();
 	
-	xRight=get<0>(setMesh(nx, dx, shape, areaRectangle, lengthCylinder));
+	xRight = get<0>(setMesh(nx, dx, shape, areaRectangle, lengthCylinder));
 	xCenter = get<1>(setMesh(nx, dx, shape, areaRectangle, lengthCylinder));
 	dV = get<2>(setMesh(nx, dx, shape, areaRectangle, lengthCylinder));
 
 	delta = delta_i;
-	initVol = getVolume(delta_i);
-	finalVol = initVol;
+	volume_i = getVolume(delta_i);
+	volume = volume_i;
 
-	mass_p=0.0;	
+	mass_p = 0.0;	
 	for (int i = 0 ; i < nx_i ; i++)
 	{
 		mass_p += (rho_m*x_m[i] + rho_vs*x_vs[i] + rho_c*x_c[i]) * dV[i];
@@ -208,15 +210,12 @@ tuple<std::vector<double>, std::vector<double>, std::vector<double>> particle_1D
 	double xL1 = 0.0;            //first upwind face location (always at 0.0)
 
 	xR[0] = sizeCell[0];
-	for (int i = 1; i < numCells; i++)
-	{
-		xR[i] = sizeCell[i] + xR[i-1];
-	}
-
 	xC[0] = 0.5 * (xL1 + xR[0]);
 	for (int i = 1; i < numCells; i++)
 	{
+		xR[i] = sizeCell[i] + xR[i-1];
 		xC[i] = 0.5 * (xR[i-1] + xR[i]);
+
 	}
 
 	if (gridGeom == "rectangle")
@@ -311,7 +310,6 @@ void particle_1D::destroy()
 
 }
 
-
 // Do one step in global time
 void particle_1D::stepForward(const double globalTimeStep,
                                   const double T_g, const double u_g,
@@ -383,8 +381,9 @@ void particle_1D::stepForward(const double globalTimeStep,
 		// Solve mass conservation
 		mass_conservation(x_O2_g);
 
-		// Update particle volume
-		finalVol = getVolume(xRight.back());
+		// Update particle size
+		delta 	= xRight.back();
+		volume 	= getVolume(delta);
 
 		// Update computational grid (in case of volume change)
 		moveMesh(xRight, xCenter, dx, nx_old, dV, shape, areaRectangle, lengthCylinder);
@@ -396,7 +395,7 @@ void particle_1D::stepForward(const double globalTimeStep,
 		h_conv = get_h(T_g, Tsurf_old, u_g, xRight.back(), shape);
 
 		// Calculate the net surface heat flux and the surface temperature
-		#include "particle_surface.h"
+		updateSurface(T_g, G);
 
 		// Calculate volumetric mass loss rate and gas fuel released at this local time-step (for each cell)
 		MLR_cell.assign(nx, 0.0);
@@ -429,9 +428,9 @@ void particle_1D::stepForward(const double globalTimeStep,
 
 		// Update particle mass (kg); and volumetric outputs (int.dV/V)
 		mass_p 	= accumulate(rho_dV_cell.begin(), rho_dV_cell.end(), 0.0f);	 	 			 //[kg]
-		MLR 	= accumulate(MLR_cell.begin(), MLR_cell.end(), 0.0f) / finalVol;             //[kg/m3.s]
-		GFRR 	= accumulate(GFRR_cell.begin(), GFRR_cell.end(), 0.0f) / finalVol;		     //[kg/m3.s]
-		charHRR = accumulate(charHRR_cell.begin(), charHRR_cell.end(), 0.0f) / finalVol; 	 //[J/m3.s]
+		MLR 	= accumulate(MLR_cell.begin(), MLR_cell.end(), 0.0f) / volume;             //[kg/m3.s]
+		GFRR 	= accumulate(GFRR_cell.begin(), GFRR_cell.end(), 0.0f) / volume;		     //[kg/m3.s]
+		charHRR = accumulate(charHRR_cell.begin(), charHRR_cell.end(), 0.0f) / volume; 	 //[J/m3.s]
 
 		//correction to account for full rectangualr particle
 		if (shape == "rectangle")
@@ -442,24 +441,20 @@ void particle_1D::stepForward(const double globalTimeStep,
 			charHRR = charHRR * 2;
 		}
 
-		//particle final size
-		delta = xRight.back();
-
 		//update particle status
 		if ((eta_c != 0.0) && (x_vs.front() < 0.001))
 		{
 			state = false;
 			cout <<"state change to burned" << endl;
 		}
-		if ((eta_c == 0.0) && (delta/delta_i < 0.02))
+		if ((eta_c == 0.0) && (delta/delta_i < 0.01))
 		{
 			state = false;
 			cout <<"state change to burned" << endl;
 		}
-
-			
-		//remesh if volume shrinks
-		//CallRemeshingSteps();
+	
+		//auto-remesh the particle if volume shrinks
+		remeshing();
 
 	} //end time loop
 	
@@ -598,7 +593,7 @@ double particle_1D::getMass()
 
 double particle_1D::getVol()
 {
-	return finalVol;
+	return volume;
 }
 
 double particle_1D::getMLR()

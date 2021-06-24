@@ -8,6 +8,7 @@ particle_1D/energy_conservation_explicit.h \
 particle_1D/energy_conservation_reactionstep.h \
 particle_1D/energy_conservation_diffusionstep.h \
 particle_1D/mass_conservation.h \
+particle_1D/remeshing.h \
 particle_1D/particle_surface.h \
 
 
