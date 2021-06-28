@@ -33,7 +33,6 @@ Description
 #include "argList.H"
 #include "IOmanip.H"
 
-using namespace std;
 using namespace Foam;
 
 #include "./particle_1D/particle_1D.h"
@@ -82,7 +81,7 @@ scalar eps_m  = 0.9;        // Surface emissivity of liquid water [-]
 scalar eps_vs = 0.9;        // Surface emissivity of virgin solid [-]
 scalar eps_c  = 0.9;        // Surface emissivity of solid char [-]
 
-scalar eta_c  = 0.0;        // char yield [-]
+scalar eta_c  = 0.2;        // char yield [-]
 
 //particle initial condition
 scalar FMC    = 0.1;

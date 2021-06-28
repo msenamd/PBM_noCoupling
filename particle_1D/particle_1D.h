@@ -132,11 +132,11 @@ private:
 		std::vector<double> GFRR_cell;       // Gaseous fuel release rate from each cell (kg/s)
 		std::vector<double> charHRR_cell;    // Char oxid. heat release rate from each cell (kg/s)
 
-        vector<double> S_pos;           	 //downwind face area (m2)
-        vector<double> S_neg;           	 //upwind face area (m2)
-        vector<double> kp;              	 //particle thermal conductivity (W/mK)
-        vector<double> rho_times_cp;		 //rho*cp
-        vector<double> Qdotp;          	 	 //volumetric rate of heat production/consumption (W/m3)
+        std::vector<double> S_pos;           //downwind face area (m2)
+        std::vector<double> S_neg;           //upwind face area (m2)
+        std::vector<double> kp;              //particle thermal conductivity (W/mK)
+        std::vector<double> rho_times_cp;	 //rho*cp
+        std::vector<double> Qdotp;           //volumetric rate of heat production/consumption (W/m3)
 
 		//variable declaration at old local timestep
 		int nx_old;
@@ -159,7 +159,7 @@ private:
 		std::vector<double> vectD;
 
 		// operator splitting method sub-step particle temperature
-		vector<double> Temp0, Temp1, Temp2, Temp3; 
+		std::vector<double> Temp0, Temp1, Temp2, Temp3; 
 
         //calculate time step size based on 0.5 Fourier number
         double tauDiff(std::vector<double> currentTemp, std::vector<double> current_x_m, std::vector<double> current_x_vs, double deltaX);
@@ -179,10 +179,10 @@ private:
 		void mass_conservation(double x_O2_g);
 
 		//solve energy conservation - explicit
-		vector<double> energy_conservation_explicit(double x_O2_g);
+		std::vector<double> energy_conservation_explicit(double x_O2_g);
 
 		//solve energy conservation - reaction step
-		vector<double> energy_conservation_reactionstep(double x_O2_g);
+		std::vector<double> energy_conservation_reactionstep(double x_O2_g);
 
 		//solve energy conservation - diffusion step
 		void energy_conservation_diffusionstep(double T_g, double G, double x_O2_g);
@@ -207,10 +207,10 @@ private:
 			-Maintain uniform grid with spacing close to initial value */
 		void remeshing();
 		void interpolateOnNewMesh(int nx_new);
-		vector<double> solveCostFunction(vector<double> q0, vector<double> q_old, int nx_new, int nx_old);
+		std::vector<double> solveCostFunction(std::vector<double> q0, std::vector<double> q_old, int nx_new, int nx_old);
 
 		//cap vector to min and max values
-		void checkBounds(vector<double> q);
+		void checkBounds(std::vector<double> q);
 
 public:
 		//Access

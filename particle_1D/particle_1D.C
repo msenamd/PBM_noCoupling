@@ -53,7 +53,7 @@ particle_1D::particle_1D()
 	dt 				= 0.0;
 	h_conv 			= 0.0;
 	volume_i 		= 0.0;
-	volume 		= 0.0;
+	volume 			= 0.0;
 	eps_surf 		= 0.0;
 	q_surf 			= 0.0;
 	kp_surf 		= 0.0;

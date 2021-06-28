@@ -11,6 +11,7 @@
 #include <ctime>
 #include <cstring>
 #include <tuple>
+#include <omp.h>
 
 #include "./particle_1D/particle_1D.h"
 
@@ -59,7 +60,7 @@ double eps_m  = 0.9;        // Surface emissivity of liquid water [-]
 double eps_vs = 0.9;        // Surface emissivity of virgin solid [-]
 double eps_c  = 0.9;        // Surface emissivity of solid char [-]
 
-double eta_c  = 0.0;        // char yield [-]
+double eta_c  = 0.2;        // char yield [-]
 
 //particle initial condition
 double FMC    = 0.1;
@@ -73,7 +74,7 @@ x_m_list.assign(1,x_m_i);
 x_vs_list.assign(1,x_vs_i);
 
 //Simulation duration [s]
-double simulationTime   = 1800;      
+double simulationTime   = 100;      
 double globalTimeStep   = 1.0;
 double globalTime       = 0.0;
 
